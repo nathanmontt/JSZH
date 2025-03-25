@@ -1,0 +1,32 @@
+@import '../base/variables';
+
+* { font-family: $main-font; }
+
+header {
+    padding: $size-medium;
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            .options {
+                a {
+                    color: $color-primary;
+                }
+            }
+
+            .home {
+                font-size: $font-size-big;
+            }
+            
+            .mode, .info {
+                // visibility: hidden;
+            }
+
+            .info {
+                font-size: $font-size-smaller;
+            }
+        }
+    }
+}

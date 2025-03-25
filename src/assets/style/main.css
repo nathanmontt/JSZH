@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -139,6 +141,35 @@ html {
 }
 
 /* ----- LAYOUT ----- */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  padding: 1em;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header nav ul .options a {
+  color: #373734;
+}
+header nav ul .home {
+  font-size: 1.5em;
+}
+header nav ul .info {
+  font-size: 0.8em;
+}
+
 /* ----- MODULES ----- */
+.btn-primary {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
 /* ----- STATE ----- */
 /* ----- THEME ----- *//*# sourceMappingURL=main.css.map */
