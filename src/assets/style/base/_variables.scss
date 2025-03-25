@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+// FONTS
+$main-font: "Inter", sans-serif;
+
+$font-size-small: .8em;
+$font-size-med: 1.1em;
+$font-size-big: 1.7em;
+
+$font-weight-parag: 300;
+$font-weight-title: 500;
+$font-weight-descs: 400;
+
+
+// COLORS
+$color-primary: #373734;
+$color-secondary: #e8e8e8;
+$color-quaternary: #1b1b1b;
+
+
+// SPECIFIC SIZES
+$size-small: 0.5em;
+$size-medium: 1em;
+$size-between-small-medium: 1.5em;
+$size-big: 2em;
+$size-min-height: 100vh;
+
+// BORDER
+$border-none: none;
+$border-no-color: transparent;
+$border-primary-size: 0.01em;
+$border-second-size: 0.1em;
