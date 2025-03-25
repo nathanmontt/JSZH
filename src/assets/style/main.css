@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -147,6 +148,11 @@ html {
 
 header {
   padding: 1em;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 header nav ul {
   display: flex;
@@ -162,6 +168,17 @@ header nav ul .home {
 }
 header nav ul .info {
   font-size: 0.8em;
+}
+
+#hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hero .icon {
+  width: 10em;
 }
 
 /* ----- MODULES ----- */

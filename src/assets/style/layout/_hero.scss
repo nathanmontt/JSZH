@@ -1,0 +1,15 @@
+@import '../base/variables';
+
+#hero {
+    min-height: $size-min-height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .icon {
+        width: 10em;
+    }
+    
+    // .desc { width: 10em; border: 3px solid red; }
+}
