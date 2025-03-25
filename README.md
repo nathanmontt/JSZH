@@ -51,8 +51,8 @@ Para futuras <em>features</em>:
 <h1 id="inspirations"> Inspirações </h1>
 
 Como inspirações:
-- A principal foi o <a href="https://www.udemy.com/course/the-complete-javascript-course/?couponCode=ST22MT240325G3">The Complete JavaScript Course 2025: From Zero to Expert!</a>, onde adquiri o curso em Janeiro de 2022, depois de ver um _post_ no _Linkedin_
-
+- A principal foi o <a href="https://www.udemy.com/course/the-complete-javascript-course/?couponCode=ST22MT240325G3">The Complete JavaScript Course 2025: From Zero to Expert!</a>, onde adquiri o curso em Janeiro de 2022, depois de ver um _post_ no _Linkedin_;
+- Para parte artística, temos o projeto da <a href="https://dribbble.com/shots/21648496-Furniture-E-commerce-Exploration">Andrea Jelić</a>;
 
 <h1 id="links"> Links Úteis </h1>
 
