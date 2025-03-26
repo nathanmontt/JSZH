@@ -60,7 +60,7 @@ A seção abaixo foi adicionada para fins de busca de conhecimento, como artigos
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-**JS** | Nada por enquanto
+**JS** | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/body">Document: body property</a>
 **CSS** | <a href="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</a> <br> <a href="https://www.w3schools.com/CSSref/func_cubic-bezier.php">CSS cubic-bezier() Function</a>
 
 <h1 id="credits"> Créditos </h1>
