@@ -1,0 +1,6 @@
+@import '../base/variables';
+
+body.dark-theme {
+    background-color: $color-primary;
+    transition: .3s background-color;
+}

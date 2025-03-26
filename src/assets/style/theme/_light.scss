@@ -1,0 +1,6 @@
+@import '../base/variables';
+
+.light-theme {
+    background-color: $color-secondary;
+    transition: .3s background-color;
+}
