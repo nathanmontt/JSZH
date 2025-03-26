@@ -21,11 +21,12 @@ header {
 
             .home { font-size: $font-size-big; }
             
-            .mode, .info {
-                // visibility: hidden;
+            .info {
+                font-size: $font-size-smaller;
+                @media (min-width: 768px) {
+                    visibility: hidden;
+                }
             }
-
-            .info { font-size: $font-size-smaller; }
         }
     }
 }

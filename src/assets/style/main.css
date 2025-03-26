@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -23,7 +24,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 html {
   scroll-behavior: smooth;
-  background-color: #e8e8e8;
+  background-color: #f3f3f3;
 }
 
 /* Classes usadas diretamente no HTML */
@@ -170,6 +171,11 @@ header nav ul .home {
 header nav ul .info {
   font-size: 0.8em;
 }
+@media (min-width: 768px) {
+  header nav ul .info {
+    visibility: hidden;
+  }
+}
 
 #hero {
   min-height: 100vh;
@@ -181,6 +187,9 @@ header nav ul .info {
 #hero .icon {
   width: 10em;
 }
+#hero .desc {
+  font-weight: 300;
+}
 
 /* ----- MODULES ----- */
 .btn-primary {
@@ -190,4 +199,5 @@ header nav ul .info {
 }
 
 /* ----- STATE ----- */
-/* ----- THEME ----- *//*# sourceMappingURL=main.css.map */
+/* ----- THEME ----- */
+/* ----- ANIMATION ----- *//*# sourceMappingURL=main.css.map */
