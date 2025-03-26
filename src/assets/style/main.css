@@ -200,4 +200,20 @@ header nav ul .info {
 
 /* ----- STATE ----- */
 /* ----- THEME ----- */
-/* ----- ANIMATION ----- *//*# sourceMappingURL=main.css.map */
+/* ----- ANIMATION ----- */
+@keyframes heroIcon {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#icon-animation {
+  animation-name: heroIcon;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  animation-fill-mode: backwards;
+}/*# sourceMappingURL=main.css.map */
