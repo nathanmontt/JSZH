@@ -61,6 +61,7 @@ A seção abaixo foi adicionada para fins de busca de conhecimento, como artigos
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
 **JS** | Nada por enquanto
+**CSS** | <a href="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</a>
 
 <h1 id="credits"> Créditos </h1>
 
