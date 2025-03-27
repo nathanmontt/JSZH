@@ -3,8 +3,9 @@
 main {
     #container-general-content {
         #content-one {
+            border: 3px solid blue;
             .object-one {
-                width: 100%;
+                width: 30%;
             }
         }
     }

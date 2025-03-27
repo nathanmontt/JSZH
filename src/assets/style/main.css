@@ -195,9 +195,6 @@ header nav ul .info {
   color: #373734;
 }
 
-.contaner-jsf-1 {
-  border: 3px solid blue;
-}
 .contaner-jsf-1 .jsf-1-title {
   border: 3px solid red;
   font-size: 2em;
@@ -207,8 +204,11 @@ header nav ul .info {
   font-size: 0.8em;
 }
 
+main #container-general-content #content-one {
+  border: 3px solid blue;
+}
 main #container-general-content #content-one .object-one {
-  width: 100%;
+  width: 30%;
 }
 
 /* ----- MODULES ----- */
