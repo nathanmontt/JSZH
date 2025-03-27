@@ -60,7 +60,7 @@ A seção abaixo foi adicionada para fins de busca de conhecimento, como artigos
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-**git/github** | <a href="https://www.youtube.com/watch?v=AszRq5xcl0Q&t=8s">Como criar uma BRANCH no GITHUB - Tutorial completo</a> <br> <a href="https://www.youtube.com/watch?v=lq3nawUnpEI">Curso gratuito Git e Github #9 - Criando branches</a>
+**git/github** | <a href="https://www.youtube.com/watch?v=AszRq5xcl0Q&t=8s">Como criar uma BRANCH no GITHUB - Tutorial completo</a> <br> <a href="https://www.youtube.com/watch?v=lq3nawUnpEI">Curso gratuito Git e Github #9 - Criando branches</a> <br> <a href="https://www.youtube.com/watch?v=o5fm7l_e1Bc">Curso gratuito Git e Github #10 - Fundindo branches</a>
 **JS** | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/body">Document: body property</a>
 **CSS** | <a href="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</a> <br> <a href="https://www.w3schools.com/CSSref/func_cubic-bezier.php">CSS cubic-bezier() Function</a>
 
