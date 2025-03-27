@@ -61,6 +61,7 @@ A seção abaixo foi adicionada para fins de busca de conhecimento, como artigos
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
 **git/github** | <a href="https://www.youtube.com/watch?v=AszRq5xcl0Q&t=8s">Como criar uma BRANCH no GITHUB - Tutorial completo</a> <br> <a href="https://www.youtube.com/watch?v=lq3nawUnpEI">Curso gratuito Git e Github #9 - Criando branches</a> <br> <a href="https://www.youtube.com/watch?v=o5fm7l_e1Bc">Curso gratuito Git e Github #10 - Fundindo branches</a>
+**HTML** | <a href="https://web.dev/articles/imports?hl=pt-br">HTML Import</a> <br> <a href="https://onextrapixel.com/html5-imports-embedding-an-html-file-inside-another-html-file/">HTML5 Imports: Embedding an HTML File Inside Another HTML File</a> <br> <a href="https://stackoverflow.com/questions/8702704/alternative-to-iframes-with-html5">Alternative to iFrames with HTML5</a>
 **JS** | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/body">Document: body property</a>
 **CSS** | <a href="https://www.w3schools.com/css/css3_animations.asp">CSS Animations</a> <br> <a href="https://www.w3schools.com/CSSref/func_cubic-bezier.php">CSS cubic-bezier() Function</a>
 
