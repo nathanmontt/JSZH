@@ -156,7 +156,6 @@ header {
   right: 0;
   left: 0;
   top: 0;
-  bottom: 0;
 }
 header nav ul {
   display: flex;
@@ -191,6 +190,7 @@ header nav ul .info {
 }
 #hero .desc {
   font-weight: 300;
+  color: #373734;
 }
 
 /* ----- MODULES ----- */

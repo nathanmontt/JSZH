@@ -11,5 +11,8 @@
         width: 10em;
     }
     
-    .desc { font-weight: $font-weight-parag; }
+    .desc { 
+        font-weight: $font-weight-parag;
+        color: $color-primary;
+    }
 }
