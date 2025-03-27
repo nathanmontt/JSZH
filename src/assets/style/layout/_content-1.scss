@@ -1,5 +1,15 @@
 @import '../base/variables';
 
 .contaner-jsf-1 {
-    border: 30px solid red;
+    border: 3px solid blue;
+    
+    .jsf-1-title {
+        border: 3px solid red;
+        font-size: $font-size-bigger;
+        font-weight: $font-weight-title;
+    }
+
+    // .jsf-1-small-desc {}
+
+    .jsf-1-big-desc { font-size: $font-size-small; }
 }

@@ -171,7 +171,7 @@ header nav ul .home {
   font-size: 1.5em;
 }
 header nav ul .info {
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 @media (min-width: 768px) {
   header nav ul .info {
@@ -195,7 +195,15 @@ header nav ul .info {
 }
 
 .contaner-jsf-1 {
-  border: 30px solid red;
+  border: 3px solid blue;
+}
+.contaner-jsf-1 .jsf-1-title {
+  border: 3px solid red;
+  font-size: 2em;
+  font-weight: 500;
+}
+.contaner-jsf-1 .jsf-1-big-desc {
+  font-size: 0.8em;
 }
 
 /* ----- MODULES ----- */
