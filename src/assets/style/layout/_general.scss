@@ -2,10 +2,25 @@
 
 main {
     #container-general-content {
-        #content-one {
+        .title {
+            font-size: $font-size-big;
+            margin: 0 0 $size-medium $size-medium;
+        }
+
+        #contents{
+            padding: $size-medium;
             border: 3px solid blue;
-            .object-one {
-                width: 30%;
+            #content-one {
+                .container-show-front {
+                    .content-title {}
+                    .content-name-course {}
+                    .content-open-modal {}
+                }
+
+                .container-modal {
+                    .container-content-desc {}
+                    .container-content-code {}
+                }
             }
         }
     }

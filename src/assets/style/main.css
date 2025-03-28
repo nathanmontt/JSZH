@@ -9,7 +9,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -195,22 +194,14 @@ header nav ul .info {
   color: #373734;
 }
 
-.contaner-jsf-1 .jsf-1-title {
-  border: 3px solid red;
-  font-size: 2em;
-  font-weight: 500;
+main #container-general-content .title {
+  font-size: 1.5em;
+  margin: 0 0 1em 1em;
 }
-.contaner-jsf-1 .jsf-1-big-desc {
-  font-size: 0.8em;
-}
-
-main #container-general-content #content-one {
+main #container-general-content #contents {
+  padding: 1em;
   border: 3px solid blue;
 }
-main #container-general-content #content-one .object-one {
-  width: 30%;
-}
-
 /* ----- MODULES ----- */
 .btn-primary {
   cursor: pointer;
