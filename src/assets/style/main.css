@@ -53,6 +53,10 @@ html {
   margin-top: 2em;
 }
 
+.mt-3 {
+  margin-top: 3em;
+}
+
 .mt-5 {
   margin-top: 5em;
 }
@@ -200,13 +204,41 @@ main #container-general-content .title {
 }
 main #container-general-content #contents {
   padding: 1em;
-  border: 3px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main #container-general-content #contents #content-one .container-show-front {
+  border: 0.01em solid #373734;
+  border-radius: 1em;
+  padding: 1.5em;
+  width: 300px;
+}
+main #container-general-content #contents #content-one .container-show-front .content-title {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+main #container-general-content #contents #content-one .container-show-front .content-name-course {
+  font-size: 0.8em;
+  font-weight: 300;
 }
 /* ----- MODULES ----- */
 .btn-primary {
   cursor: pointer;
   background-color: transparent;
   border: none;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.01em solid #373734;
+  padding: 0.5em;
+  transition: background-color 0.5s, color 0.5s;
+}
+.btn-secondary:hover {
+  background-color: #373734;
+  color: #f3f3f3;
 }
 
 /* ----- STATE ----- */

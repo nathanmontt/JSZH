@@ -9,12 +9,26 @@ main {
 
         #contents{
             padding: $size-medium;
-            border: 3px solid blue;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             #content-one {
                 .container-show-front {
-                    .content-title {}
-                    .content-name-course {}
-                    .content-open-modal {}
+                    border: $border-primary-size solid $color-primary;
+                    border-radius: 1em;
+                    padding: $size-between-small-medium;
+                    width: 300px;
+                    .content-title {
+                        font-weight: $font-weight-title;
+                        font-size: $font-size-big;
+                    }
+                    .content-name-course {
+                        font-size: $font-size-small;
+                        font-weight: $font-weight-parag;
+                    }
+                    .content-open-modal {
+                        // margin-top: ;
+                    }
                 }
 
                 .container-modal {

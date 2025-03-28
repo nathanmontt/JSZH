@@ -5,3 +5,16 @@
     background-color: $border-no-color;
     border: $border-none;
 }
+
+.btn-secondary {
+    cursor: pointer;
+    background-color: $border-no-color;
+    border: $border-primary-size solid $color-primary;
+    padding: $size-small;
+
+    transition: background-color .5s, color .5s;
+    &:hover {
+        background-color: $color-primary;
+        color: $color-secondary;
+    }
+}
