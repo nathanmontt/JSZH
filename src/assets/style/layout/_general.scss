@@ -12,7 +12,7 @@ main {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            #content-one {
+            #content-one, #content-two {
                 .container-show-front {
                     border: $border-primary-size solid $color-primary;
                     border-radius: 1em;

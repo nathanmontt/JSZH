@@ -208,21 +208,21 @@ main #container-general-content #contents {
   flex-wrap: wrap;
   justify-content: center;
 }
-main #container-general-content #contents #content-one .container-show-front {
+main #container-general-content #contents #content-one .container-show-front, main #container-general-content #contents #content-two .container-show-front {
   border: 0.01em solid #373734;
   border-radius: 1em;
   padding: 1.5em;
   width: 300px;
 }
-main #container-general-content #contents #content-one .container-show-front .content-title {
+main #container-general-content #contents #content-one .container-show-front .content-title, main #container-general-content #contents #content-two .container-show-front .content-title {
   font-weight: 500;
   font-size: 1.5em;
 }
-main #container-general-content #contents #content-one .container-show-front .content-name-course {
+main #container-general-content #contents #content-one .container-show-front .content-name-course, main #container-general-content #contents #content-two .container-show-front .content-name-course {
   font-size: 0.8em;
   font-weight: 300;
 }
-main #container-general-content #contents #content-one .container-modal {
+main #container-general-content #contents #content-one .container-modal, main #container-general-content #contents #content-two .container-modal {
   border: 3px solid red;
   position: fixed;
   top: 0;

@@ -1,24 +1,28 @@
 'use strict'
 
-const btnOpenModal = document.querySelector('.btn-content-open-modal');
-const btnCloseModal = document.querySelector('.close-modal');
-const showModal = document.querySelector('.container-modal');
+const btnOpenModal = document.querySelectorAll('.btn-content-open-modal');
+const btnCloseModal = document.querySelectorAll('.close-modal');
+const showModal = document.querySelectorAll('.container-modal');
 let test = 'ok';
 
-btnOpenModal.addEventListener('click', function () {
-    console.log(test)
-    if (showModal.classList.contains('hidden')) {
-        showModal.classList.remove('hidden');
-        btnCloseModal.classList.remove('hidden');
-    }
-});
+for (let i=0 ; i<btnCloseModal.length ; i++) {
+    btnOpenModal[i].addEventListener('click', function () {
+        console.log(test)
+        if (showModal[i].classList.contains('hidden')) {
+            showModal[i].classList.remove('hidden');
+            btnCloseModal[i].classList.remove('hidden');
+        }
+    });
+}
 
-btnCloseModal.addEventListener('click', function () {
-    if (!showModal.classList.contains('hidden')) {
-        showModal.classList.add('hidden');
-        btnCloseModal.classList.add('hidden');
-    }
-});
+for (let k=0 ; k<btnCloseModal.length ; k++) {
+    btnCloseModal[k].addEventListener('click', function () {
+        if (!showModal[k].classList.contains('hidden')) {
+            showModal[k].classList.add('hidden');
+            btnCloseModal[k].classList.add('hidden');
+        }
+    });
+}
 
 // for (let i=0 ; i<openModalContents.length ; i++) {
 //     openModalContents[i].addEventListener('click', function () {
