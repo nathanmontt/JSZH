@@ -1,5 +1,15 @@
 @import '../base/variables';
 
+// Local Variables
+$contentHoldersSize: 20em;
+$screenSizeOne: 35em;
+$screenSizeTwo: 42em;
+
+.container-content-desc, .container-content-code {
+    border: $border-primary-size solid $color-secondary;
+    padding: 1em;
+}
+
 main {
     #container-general-content {
         .title {
@@ -13,9 +23,14 @@ main {
             flex-wrap: wrap;
             justify-content: center;
             #content-one, #content-two {
+                margin-bottom: 1em;
+                
+                @media screen and (min-width: 630px) {
+                    margin-right: 1em;
+                }
                 .container-show-front {
                     border: $border-primary-size solid $color-primary;
-                    border-radius: 1em;
+                    border-radius: $size-small;
                     padding: $size-between-small-medium;
                     width: 300px;
                     .content-title {
@@ -26,29 +41,60 @@ main {
                         font-size: $font-size-small;
                         font-weight: $font-weight-parag;
                     }
-                    .content-open-modal {
-                        // margin-top: ;
-                    }
                 }
 
                 .container-modal {
-                    border: 3px solid red;
                     position: fixed;
                     top: 0;
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    // overflow-y: scroll;
-                    .close-modal {}
+                    background-color: $color-tertiray;
+                    .close-modal {
+                        background-color: $color-secondary;
+                        border: $border-none;
+                        margin: $size-medium;
+                        padding: $size-medium;
+                        cursor: pointer;
+                    }
+                    
                     .overlay{
-                        // border: 3px solid blue;
-                        // padding: 1em;
-                        .holder{
-                            // padding: $size-small;
-                            // border: 3px solid green;
-                            // background-color: $color-secondary;
-                            .container-content-desc {}
-                            .container-content-code {}
+                        margin: $size-medium;
+                        @media screen and (min-width: 1024px) {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                        .overlay-content-desc{
+                            height: 16em;
+                            margin-bottom: $size-medium;
+                            overflow-y: scroll;
+
+                            @media screen and (min-width: 1024px){
+                                height: $screenSizeOne;
+                            }
+                            @media screen and (min-width: 1440px){
+                                height: $screenSizeTwo;
+                            }
+
+                            .container-content-desc {
+                                background-color: $color-secondary;
+                            }
+                        }
+                        
+                        .overlay-content-code {
+                            height: $contentHoldersSize;
+                            overflow-y: scroll;
+
+                            @media screen and (min-width: 1024px){
+                                height: $screenSizeOne;
+                            }
+                            @media screen and (min-width: 1440px){
+                                height: $screenSizeTwo;
+                            }
+                            
+                            .container-content-code {
+                                background-color: $color-quaternary;
+                            }
                         }
                     }
                 }
