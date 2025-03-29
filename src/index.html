@@ -16,6 +16,7 @@
     <meta http-equiv="content-type" content="article/html">
 
     <script defer src="assets/js/main.js"></script>
+    <script defer src="assets/js/modal.js"></script>
 
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="shortcut icon" href="assets/icons/javascript-logo.png" type="image/x-icon">
@@ -49,17 +50,18 @@
                         <p class="content-name-course mt-05">The Complete JavaScript Course 2025: From Zero to Expert!</p>
                         <button class="content-open-modal mt-2 btn-secondary">Conteúdo</button>
                     </div>
-                    <div class="container-modal">
-                        <div class="container-content-desc"></div>
-                        <div class="container-content-code"></div>
+                    <div class="container-modal hidden">
+                        <button class="close-modal hidden">X</button>
+                        <div class="overlay">
+                            <div class="holder">
+                                <div class="container-content-desc"></div>
+                                <div class="container-content-code"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
-    <footer>
-        <div class="container-general-footer"></div>
-    </footer>
 </body>
 </html>

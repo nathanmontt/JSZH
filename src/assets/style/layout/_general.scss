@@ -32,8 +32,25 @@ main {
                 }
 
                 .container-modal {
-                    .container-content-desc {}
-                    .container-content-code {}
+                    border: 3px solid red;
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    // overflow-y: scroll;
+                    .close-modal {}
+                    .overlay{
+                        // border: 3px solid blue;
+                        // padding: 1em;
+                        .holder{
+                            // padding: $size-small;
+                            // border: 3px solid green;
+                            // background-color: $color-secondary;
+                            .container-content-desc {}
+                            .container-content-code {}
+                        }
+                    }
                 }
             }
         }
