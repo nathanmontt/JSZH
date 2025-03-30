@@ -169,7 +169,7 @@ header nav ul {
   text-align: center;
 }
 header nav ul .options a {
-  color: #373734;
+  color: #1d1d1b;
 }
 header nav ul .home {
   font-size: 1.5em;
@@ -195,7 +195,7 @@ header nav ul .info {
 }
 #hero .desc {
   font-weight: 300;
-  color: #373734;
+  color: #1d1d1b;
 }
 
 .container-content-desc, .container-content-code {
@@ -222,7 +222,7 @@ main #container-general-content #contents #content-one, main #container-general-
   }
 }
 main #container-general-content #contents #content-one .container-show-front, main #container-general-content #contents #content-two .container-show-front {
-  border: 0.01em solid #373734;
+  border: 0.01em solid #1d1d1b;
   border-radius: 0.5em;
   padding: 1.5em;
   width: 300px;
@@ -304,20 +304,16 @@ main #container-general-content #contents #content-one .container-modal .overlay
 
 .btn-secondary {
   cursor: pointer;
-  background-color: transparent;
-  border: 0.01em solid #373734;
-  padding: 0.5em;
-  transition: background-color 0.5s, color 0.5s;
-}
-.btn-secondary:hover {
-  background-color: #373734;
   color: #f3f3f3;
+  background-color: #070707;
+  border: 0.01em solid #1d1d1b;
+  padding: 0.5em;
 }
 
 /* ----- STATE ----- */
 /* ----- THEME ----- */
 body.dark-theme {
-  background-color: #373734;
+  background-color: #1d1d1b;
   transition: 0.3s background-color;
 }
 
