@@ -64,6 +64,7 @@ main {
                             display: grid;
                             grid-template-columns: repeat(2, 1fr);
                         }
+                        
                         .overlay-content-desc{
                             height: 16em;
                             margin-bottom: $size-medium;
@@ -94,6 +95,10 @@ main {
                             
                             .container-content-code {
                                 background-color: $color-quaternary;
+
+                                .content-code-title {
+                                    color: $color-secondary;
+                                }
                             }
                         }
                     }
