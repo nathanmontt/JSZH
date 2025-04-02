@@ -10,8 +10,18 @@ const contentDescOne = [
     },
 ];
 
+const contentCodeOne = [
+    {
+        codeContent: [
+            `Aprendi a colocar o ${hello} dentro de um <em>console.log()</em>.`,
+            `Aprendi a colocar o ${hello} dentro de um <em>console.log()</em>.`,
+        ]
+    },
+];
+
 // container onde o conteúdo vai ser inserido
 const containerExplanation = document.querySelector('.container-explanation-text');
+const containerCode = document.querySelector('.container-explanation-code');
 
 function renderContentOne(contentData) {
     const container = document.createElement('div');
@@ -37,12 +47,45 @@ function renderContentOne(contentData) {
     return container;
 }
 
+function renderCodeOne(codeContentData) {
+    const codeContainer = document.createElement('div');
+    codeContainer.classList.add('holder-code');
+
+    // const titleContent = document.createElement('h4');
+    // titleContent.classList.add('title-content', 'mt-05');
+    // titleContent.innerHTML = contentData.titleClass;
+    // codeContainer.appendChild(titleContent);
+
+    codeContentData.codeContent.forEach(line => {
+        const p = document.createElement('p');
+        p.classList.add('content-paragraph', 'mb-05');
+        p.innerHTML = line;
+        p.style.cssText = `
+            color: white;
+        `;
+        codeContainer.appendChild(p);
+    });
+
+    // titleEl.style.cssText = ``;
+
+    // const separator = document.createElement('hr');
+    // codeContainer.appendChild(separator);
+
+    return codeContainer;
+}
+
 function renderAll() {
     containerExplanation.innerHTML = '';
+    containerCode.innerHTML = '';
 
+    // Primeira parte
     contentDescOne.forEach(item => {
         const block = renderContentOne(item);
         containerExplanation.append(block);
+    });
+    contentCodeOne.forEach(item => {
+        const holder = renderCodeOne(item);
+        containerCode.append(holder);
     });
 }
 
