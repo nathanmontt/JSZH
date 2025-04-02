@@ -1,25 +1,11 @@
 'use strict'
 
-const contentDescTopicOne = [
+let hello = `<strong><em>Hello World!</em></strong>`;
+const contentDescOne = [
     {
-        titleClass: `inicio das aulas`,
+        titleClass: `Hello World!`,
         content: [
-            `fiz coisa`,
-            `fiz tal coisa`,
-        ]
-    },
-    {
-        titleClass: `inicio das aulas`,
-        content: [
-            `fiz coisa`,
-            `fiz tal coisa`,
-        ]
-    },
-    {
-        titleClass: `inicio das aulas`,
-        content: [
-            `fiz coisa`,
-            `fiz tal coisa`,
+            `Aprendi a colocar o ${hello} dentro de um <em>console.log()</em>.`,
         ]
     },
 ];
@@ -27,21 +13,23 @@ const contentDescTopicOne = [
 // container onde o conteúdo vai ser inserido
 const containerExplanation = document.querySelector('.container-explanation-text');
 
-function renderContent(contentData) {
+function renderContentOne(contentData) {
     const container = document.createElement('div');
     container.classList.add('holder');
 
     const titleEl = document.createElement('h4');
-    titleEl.classList.add('title-content');
-    titleEl.textContent = contentData.titleClass;
+    titleEl.classList.add('title-content', 'mt-05');
+    titleEl.innerHTML = contentData.titleClass;
     container.appendChild(titleEl);
 
     contentData.content.forEach(line => {
         const p = document.createElement('p');
-        p.classList.add('content-paragraph');
-        p.textContent = line;
+        p.classList.add('content-paragraph', 'mb-05');
+        p.innerHTML = line;
         container.appendChild(p);
     });
+
+    // titleEl.style.cssText = ``;
 
     const separator = document.createElement('hr');
     container.appendChild(separator);
@@ -50,11 +38,10 @@ function renderContent(contentData) {
 }
 
 function renderAll() {
-    // containerExplanation.innerHTML = '';
-  
-    // Percorre cada objeto no array contentDescTopicOne e adiciona o bloco renderizado ao container
-    contentDescTopicOne.forEach(item => {
-        const block = renderContent(item);
+    containerExplanation.innerHTML = '';
+
+    contentDescOne.forEach(item => {
+        const block = renderContentOne(item);
         containerExplanation.append(block);
     });
 }
