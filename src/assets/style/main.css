@@ -297,6 +297,11 @@ main #container-general-content #contents #content-one .container-modal .overlay
 main #container-general-content #contents #content-one .container-modal .overlay .overlay-content-code .container-content-code .content-code-title, main #container-general-content #contents #content-two .container-modal .overlay .overlay-content-code .container-content-code .content-code-title {
   color: #f3f3f3;
 }
+main #container-general-content #contents #content-one .container-modal .overlay .overlay-content-code .container-content-code .container-explanation-code .change-bg-color, main #container-general-content #contents #content-two .container-modal .overlay .overlay-content-code .container-content-code .container-explanation-code .change-bg-color {
+  padding: 0.5em;
+  margin-top: 1em;
+  background-color: #292927;
+}
 
 /* ----- MODULES ----- */
 .btn-primary {

@@ -99,6 +99,14 @@ main {
                                 .content-code-title {
                                     color: $color-secondary;
                                 }
+
+                                .container-explanation-code {
+                                    .change-bg-color {
+                                        padding: $size-small;
+                                        margin-top: $size-medium;
+                                        background-color: $color-fifth;
+                                    }
+                                }
                             }
                         }
                     }
