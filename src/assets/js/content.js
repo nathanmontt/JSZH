@@ -1,54 +1,62 @@
 'use strict'
 
-// let i;
-// const containerStudyExplanation = document.querySelectorAll('.container-explanation-text');
-// const elTextExplanation = document.querySelectorAll('.explanation-text');
-
-// for (i=0 ; i<containerStudyExplanation.length ; i++) {
-//     containerStudyExplanation[i].classList.add('mt-1')
-// }
-
-// elTextExplanation.forEach(el => {
-//     el.classList.add('mb-1');
-// })
-
-const contentDesc = [
+const contentDescTopicOne = [
     {
         titleClass: `inicio das aulas`,
         content: [
-            `teste <br>`,
-            `teste2 <br>`,
-            `teste2 <br>`,
-            `teste2 <br>`,
-            `teste2 <br>`,
-            `teste2 <br>`,
-            `teste3 <br>`,
-            `teste3 <br>`,
-            `teste3 <br>`,
-            `teste3 <br>`,
-            `teste3 <br>`,
-            `teste4 <br>`,
-            `teste4 <br>`,
-            `teste4 <br>`,
-            `teste4 <br>`,
-            `teste4 <br>`,
+            `fiz coisa`,
+            `fiz tal coisa`,
         ]
-    }
-]
+    },
+    {
+        titleClass: `inicio das aulas`,
+        content: [
+            `fiz coisa`,
+            `fiz tal coisa`,
+        ]
+    },
+    {
+        titleClass: `inicio das aulas`,
+        content: [
+            `fiz coisa`,
+            `fiz tal coisa`,
+        ]
+    },
+];
 
-// container do html que vai guardar o conteúdo
-const divContainer = document.querySelectorAll('.container-explanation-text');
+// container onde o conteúdo vai ser inserido
+const containerExplanation = document.querySelector('.container-explanation-text');
 
-// for para adicionar em "todos os elemento possiveis"
-for (let i=0 ; i<divContainer.length; i++) {
-    // divContainer[i]
-    const parag = document.createElement('p');
-    const title = document.createElement('h4');
-    parag.classList.add('explanation-text');
-    title.classList.add('title-explanation-text');
+function renderContent(contentData) {
+    const container = document.createElement('div');
+    container.classList.add('holder');
 
-    title.innerHTML = contentDesc[i].titleClass;
-    parag.innerHTML = contentDesc[i].content;
+    const titleEl = document.createElement('h4');
+    titleEl.classList.add('title-content');
+    titleEl.textContent = contentData.titleClass;
+    container.appendChild(titleEl);
 
-    divContainer[i].append(title, parag)
+    contentData.content.forEach(line => {
+        const p = document.createElement('p');
+        p.classList.add('content-paragraph');
+        p.textContent = line;
+        container.appendChild(p);
+    });
+
+    const separator = document.createElement('hr');
+    container.appendChild(separator);
+
+    return container;
 }
+
+function renderAll() {
+    // containerExplanation.innerHTML = '';
+  
+    // Percorre cada objeto no array contentDescTopicOne e adiciona o bloco renderizado ao container
+    contentDescTopicOne.forEach(item => {
+        const block = renderContent(item);
+        containerExplanation.append(block);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', renderAll);
