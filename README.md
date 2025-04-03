@@ -1,4 +1,4 @@
-# *JSZH - Javascript: Zero to Hero*
+# *JSZH - Javascript: Zero to Hero* (EM PAUSA)
 **JSZH**: um guia nos meus estudos (mais um) para Javascript
 
 ---
